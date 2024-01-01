@@ -1,13 +1,11 @@
 import * as React from 'react';
 
-function AuthScreen(){
+function DashScreen(){
     return (
         <div>
-            <form>
 
-            </form>
         </div>
     )
 }
 
-export default AuthScreen;
+export default DashScreen;

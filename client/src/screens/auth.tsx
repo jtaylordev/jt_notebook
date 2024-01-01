@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-function DashboardScreen(){
+function AuthScreen(){
     return (
         <div>
 
@@ -8,4 +8,4 @@ function DashboardScreen(){
     )
 }
 
-export default DashboardScreen;
+export default AuthScreen

@@ -1,0 +1,18 @@
+.dashboard {
+  display: flex;
+
+  .sidebar {
+    width: 250px;
+    transition: width 0.3s ease;
+    border: black solid 3px;
+    &.closed {
+      width: 50px; // Shrink sidebar width
+
+      // Adjustments for the hamburger icon and other elements
+    }
+  }
+
+  .content {
+    flex-grow: 1;
+  }
+}

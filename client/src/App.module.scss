@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  flex-direction: column;
+
+  header {
+    border: red solid 3px;
+  }
+  main {
+    border: blue dotted 2px;
+    section {
+      border: green solid 3px;
+    }
+  }
+}
